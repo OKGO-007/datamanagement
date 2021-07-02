@@ -4,6 +4,12 @@
 int main(){
   int i,num,heads=0,tails=0,j=0;
 
+  //name
+  char str[15];
+  printf("What's your name?");
+  scanf("%s", str);
+  printf("Hellow, %s\n", str);
+
   printf("Tossing a coin... \n");
 
   for(i = 0; i < 3;i++){
@@ -23,3 +29,4 @@ int main(){
 
   return 0;
 }
+

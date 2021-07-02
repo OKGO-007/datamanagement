@@ -26,10 +26,9 @@ int main(){
   }
 
   printf("Heads: %d, Tails: %d\n", heads, tails);
-  
+
   //you win part
-  printf("you win");
+  printf("%s win!", str);
 
   return 0;
 }
-

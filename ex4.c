@@ -20,6 +20,9 @@ int main(){
   }
 
   printf("Heads: %d, Tails: %d\n", heads, tails);
+  
+  //you win part
+  printf("you win");
 
   return 0;
 }
